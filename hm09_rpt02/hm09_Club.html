@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm09 : CSS3 animation</title>
+		<style>
+			input[type=text] {/* text 창에만 적용 */
+				color: red;
+			}
+			input:hover, textarea:hover {/* 마우스 올라 올 때 */
+				background: aliceblue;
+			}
+			input[type=text]:focus, input[type=email]:focus {/* 포커스 받을 때 */
+				font-size: 300%;
+			}
+			label {
+				display: block; /* 새 라인에서 시작 */
+				padding: 5px;
+			}
+			label  span {
+				float: left;
+				width: 100px;
+				text-align: right;
+				padding: 1px;
+			}
+
+		</style>
+		<script></script>
+	</head>
+<table>
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<h3>자전거 동호회 모집 공고</h3>
+		<br>
+		<hr>
+		<form>
+			<label><span>장소 :</span>
+				<img src="media/한샘_직장인_취미생활_자전거_동호회_2.png" alt="자전거 동호회 사진" height="120" width="300">
+				<br>
+			</label>
+
+			<label><span>인삿말 :</span>
+				<li>안녕하세요 한이네 자전거 동호회 줄여서 한자회라고 합니다.</li>
+				<li>무더운 여름날씨에 다들 지치고 힘들어하실 텐데요 이럴때 일수록 몸을 더 움직여줘야 몸도 마음도 건강해진답니다.</li>
+			    <hr />
+				<br>
+				</label>
+
+			<label><span>동호회 소개 :</span>
+				<li>저희 한이네 자전거 동호회는 평소에 운동에 관심이 있거나 배우고 싶어하시는 분들을 위해 소규모 모임으로 자주 진행되고 있습니다.</li>
+				<hr />
+				<br>
+			</label>
+			
+			<label><span>준비 용품 :</span>
+				<li> 1번째 : 보호장비 / 2번째 : 자전거 / 할수 있다는 의지만 준비 해오시면 될것같습니다.</li>
+				<hr />
+				<br>
+			</label>
+
+			<label> <span>신청일자 :</span>
+				<li>20xx년도 x월 1일 14:00시부터 20xx년도 x월 3일 14:00까지</li>
+				<hr />
+				<br>
+			</label>
+			<label> <span>진행 계획 :</span>
+				<li>"20xx년도 x월 4일 12:00~14:00까지 가로수길 드라이브 밑 풍경구경" , "14:00~16:00까지 가로수길 맛집에서 식사 후 한강 뷰를 보면서 드라이브"</li>
+				<hr />
+				<br>
+		</label>
+			<label> <span>참가 비용 :</span>
+				<input type="email" placeholder="단돈 0원">
+				<hr />
+				<br>
+			</label>
+
+			<label> <span>참가 서식 :</span>
+				<input type="email" placeholder="하고 싶은 말">
+				<hr />
+			</label>
+
+			<label> <span>그룹 대표 :</span>
+				<input type="email" placeholder="서울시장 이상혁">
+				<hr />
+				<br>
+			</label>
+
+				<label> <span>비상 연락망 :</span>
+					<input type="email" placeholder="010-2234-4523">
+					<hr />
+					<br>
+				</label>
+
+			<label> <span></span>
+				<input type="submit" value="submit">
+			</label>
+		</form>
+	</table>
+	</body>
+
+</html>
+
