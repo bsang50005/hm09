@@ -1,0 +1,40 @@
+  
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm09 : Javascript BOM</title>
+    <style></style>
+
+    <script>
+      function load() {
+        var select = document.getElementById("music");
+        window.location = select.options[select.selectedIndex].value;
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <h3>hm07 favorite 3 노래</h3>
+    <hr />
+    노래 선택 :
+    <select id="music">
+      <option value="https://www.youtube.com/watch?v=QIlzgNozXKw" selected
+        >창모의 빌었어
+      </option>
+      <option value="https://www.youtube.com/watch?v=OD7JTf7QOVY"
+        >곽진언의 시청 앞 지하철 역에서
+      </option>
+      <option value="https://www.youtube.com/watch?v=bW3XExLBf7A"
+        >Standing EGG의 오래된 노래
+      </option>
+    </select>
+
+    <p>
+      <button onclick="load()">노래 관련 사이트로 접속</button>
+    </p>
+  </body>
+</html>
